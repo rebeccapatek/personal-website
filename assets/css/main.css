@@ -1199,12 +1199,13 @@ input[type="radio"] + label:before {
     margin-top: 35px;
     max-height: 40px;
   }
+}
 @media screen and (max-width: 480px) {
   .svgi {
     margin-top: 30px;
     max-height: 20px;
   }
-}
+  }
 /* Icon */
 .icon {
   text-decoration: none;
@@ -1846,7 +1847,7 @@ img.svg{
           @media screen and (max-width: 480px) {
 img.svg{
       max-width: 20px;
-      margin-top: 50px;
+      margin-top: 10px;
     }
     .posts {
       margin: 0 0 2em 0;
@@ -1864,12 +1865,12 @@ img.svg{
             display: none; } }
             
 
-section.capstone{
+.capstone{
   background-color: #f56a6a;
-  display:flex;
+  /* display:flex;*/
   margin-left: -53.3px;
-  margin-right: -53.3px;
-}
+  margin-right: -53.3px; 
+} 
 div.half{
   flex-wrap: wrap;
   flex-basis: 40%;
@@ -1883,25 +1884,60 @@ div.part{
   padding-left: 40px;
 }
 
-h2.title {
+span.title {
+  font-size: 1.75em;
+  margin-left: 56.6667px;
   color: white;
   border: 3px solid white;
   padding: 3px;
-  margin-right: 355px;
+  
 }
 h3.summary {
+  margin-top: 20px;
+  margin-left: 56.6667px;
   color:white;
 }
+p.description {
+  margin-left: 56.666667px; 
+}
+@media screen and (max-width: 585px)
+{
+  p.description {
+    margin-right: 46.6667px;
+  }
+}
 img.shirt{
-  max-width: 300px;
+  max-width: 350px;
 
 }
 img.boombox {
   position: absolute;
   align-content: center;
-  top: -40px;
-  left: 113px;
-  max-width: 150px;
+  top: -110px;
+  left: 93px;
+  max-width: 160px;
+  
+}
+@media screen and (max-width: 736px) {
+  img.shirt{
+    margin-left: 56.67px;
+
+  }
+  img.boombox{
+    margin-left: 56.67px;
+
+  }
+}
+@media screen and (max-width: 480px) {
+  img.shirt{
+    margin-left: 56.67px;
+    padding-top: -2em;
+
+  }
+  img.boombox{
+    margin-left: 56.67px;
+
+  }
 }
 
 /* Wrapper */
