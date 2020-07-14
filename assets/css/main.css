@@ -1705,7 +1705,7 @@ img.svg{
       width: 100%; }
       .features article {
         margin: 0 0 3em 0;
-        width: 100%; }
+         }
         .features article:nth-child(2n - 1) {
           margin-right: 0; }
         .features article:nth-child(2n) {
@@ -2384,3 +2384,4 @@ p.description {
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+ 
