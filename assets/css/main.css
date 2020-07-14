@@ -1906,19 +1906,12 @@ p.description {
     margin-right: 46.6667px;
   }
 }
-img.shirt{
-  max-width: 350px;
-  position: relative;
-
-}
-img.boombox {
-  position: absolute;
-  align-content: center;
-  top: -110px;
-  left: 93px;
-  max-width: 160px;
+/* img.shirt{
+  max-width: 300px;
   
-}
+
+} */
+
 /* @media screen and (max-width: 650px) {
   
   img.boombox{
@@ -1926,21 +1919,30 @@ img.boombox {
 
   }
 } */
+@media screen and (max-width: 685px) {
+  img.shirt{
+    
+    
+    margin-left: 126.67px;
+    position:relative;
+    max-width: 350px;
+
+  }
+ 
+}
 @media screen and (max-width: 480px) {
   img.shirt{
     
-    margin-top: 30px;
-    margin-left: 56.67px;
+    
+    max-height: 450px;
     position:relative;
+    max-width: 250px;
+    margin-right: 156.67;
 
   }
-  img.boombox{
-    margin-top: 60px;
-    margin-left: 56.67px;
-    position: absolute;
-
-  }
+ 
 }
+
 
 /* Wrapper */
 #wrapper {
